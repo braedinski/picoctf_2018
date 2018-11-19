@@ -7,7 +7,7 @@ but we had to stop due to commitment with our study, so we stopped around the 8t
 This document is very much a work in progress, as we're now trying to recall the challenges and solutions a month later, but hopefully they're not so difficult that you couldn't figure them out from the code-based solutions alone.
 
 ## Completion
-![](images/image.png)
+![](images/challenges.png)
 
 ## Team
 1. Adam Kinnell ([@akinnell](https://www.github.com/akinnell))
